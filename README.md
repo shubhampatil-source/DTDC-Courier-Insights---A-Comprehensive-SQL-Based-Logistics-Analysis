@@ -86,6 +86,48 @@ description TEXT,
 risk_surcharge VARCHAR(50),  
 FOREIGN KEY (consignment_no) REFERENCES shipments(consignment_no));
 
+Questions:
+
+•	What is the average turnaround time and standard deviation per mode of transport?
+
+•	How many consignments were handled per day?
+
+•	Max and min number of consignments handled per day
+
+•	Number of days where number of consignments are above average
+
+•	Which top 5 booking codes experience higher delivery times across cities?
+
+•	Identify count of shipments where the delivery gap is unusually high compared to similar routes.
+
+•	Segment by mode of transport and routes, which route suffers most delays in terms of delivery gap and volume of consignments
+
+•	Which top 5 routes operate with the lowest cost-per-kg (high efficiency)?
+
+•	Which top 5 routes operate with the highest cost-per-kg (Low efficiency)?
+
+•	Which routes have the highest consignment volume and weight?
+
+•	What is the average cost per kg by mode?
+
+•	Which cities (origin/destination) consistently incur higher VAS charges?
+
+•	Find % of total revenue spent on VAS
+
+•	What is the total % revenue generated from each sender state and mode combination?
+
+•	Total revenue, VAS charge margin and profitability index of each mode of transport and correlation with volume of consignments
+
+•	Identify top 5 senders state contributing highest total revenue across all consignments, their vas charge margin and profitability index
+
+•	Count Consignments where chargeable_wt deviates significantly > 2kg from actual_wt.
+
+•	Which route + mode combinations generate high revenue but have low consignment volume?
+
+•	Top 10 clients by revenue or volume
+
+
+
 Key Insights and Findings:
 1. Operational Efficiency:
 
